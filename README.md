@@ -21,3 +21,5 @@ To start the development server, run:
 ```bash
 bun --hot run index.tsx
 ```
+
+You can now view the app at [http://localhost:3000](http://localhost:3000).
