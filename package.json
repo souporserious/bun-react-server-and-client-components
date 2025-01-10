@@ -1,7 +1,15 @@
 {
+  "scripts": {
+    "start": "bun --conditions=\"react-server\" index.tsx"
+  },
   "dependencies": {
     "@types/bun": "^1.1.16",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.2",
+    "es-module-lexer": "^1.6.0",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "react-server-dom-parcel": "^0.0.1",
+    "restyle": "^3.0.0"
   }
 }
